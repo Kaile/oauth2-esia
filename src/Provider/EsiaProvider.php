@@ -158,6 +158,16 @@ class EsiaProvider extends AbstractProvider implements ProviderInterface
             'organizations.elements' => [
                 'usr_org',
             ],
+            'kids.elements' => [
+                'kid_fullname',
+                'kid_birthdate',
+                'kid_gender',
+                'kid_email',
+                'kid_snils',
+                'kid_inn',
+                'kid_birth_cert_doc',
+                'kid_medical_doc',
+            ],
         ];
 
         $allowedEmbeds = [];
